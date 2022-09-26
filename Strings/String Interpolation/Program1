@@ -1,0 +1,9 @@
+//1) String Interpolation using "s" keyword
+object MyClass {
+    def main(args: Array[String]) {
+        var bikename = "KTM Duke 390"
+        var topspeed = 185 
+        var str = s"I have $bikename and it has a top speed of $topspeed "
+        println(str)
+    }
+}
