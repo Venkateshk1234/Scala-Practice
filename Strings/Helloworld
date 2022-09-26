@@ -1,1 +1,8 @@
+// Scala program to print "Hello World" message
+
+object HelloWorld{  
+    def main(args:Array[String]){  
+        println ("Hello World") 
+    }  
+}
 
