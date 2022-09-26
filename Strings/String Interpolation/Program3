@@ -1,0 +1,10 @@
+//3) String Interpolation using "raw" keyword
+
+object MyClass {
+    def main(args: Array[String]) {
+        var bikename = "Ninja 300"
+        var topspeed = 150
+        var str = raw"I have $bikename and it has a top speed of $topspeed "
+        println(str)
+    }
+}
