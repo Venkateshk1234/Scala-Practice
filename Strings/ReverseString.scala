@@ -1,4 +1,4 @@
-
+//Program to reverse a string in Scala
 
 object ReverseString {
   def reverseString(newString: String): String = {
