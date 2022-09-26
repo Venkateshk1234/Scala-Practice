@@ -1,0 +1,12 @@
+//Program to illustrate the working of '+' operator
+
+object myObject {
+    def main(args: Array[String]) {
+        val string1 = "Scala "
+        val string2 = "Programming Language"
+        
+        val concatString = string1 + string2
+        
+        println("The concatenated string is " + concatString)
+    }
+}
