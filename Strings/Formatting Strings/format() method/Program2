@@ -1,0 +1,8 @@
+object MyClass {
+    def main(args: Array[String]) {
+        var name = "Honda CBR 650"
+        var speed = 194
+        var formatted_string = "%s has a maximum speed of %d Km/h.".format(name, speed)   
+        print(formatted_string)
+    }
+}
