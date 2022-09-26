@@ -1,0 +1,7 @@
+object MyClass {
+    def main(args: Array[String]) {
+        var bike = "Royal Enfield Thunderbird"
+        var formattedstring = bike.formatted("I have a %s")
+        print(formattedstring)
+    }
+}
