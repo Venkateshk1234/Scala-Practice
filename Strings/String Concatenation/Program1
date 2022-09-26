@@ -1,0 +1,12 @@
+//Program to illustrate the working of concat() method in Scala
+
+object myObject {
+    def main(args: Array[String]) {
+        val string1 = "Scala "
+        val string2 = "Programming Language"
+        
+        val concatString = string1.concat(string2)
+        
+        println("The concatenated string is " + concatString)
+    }
+}
