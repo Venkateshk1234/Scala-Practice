@@ -1,0 +1,10 @@
+//2) String Interpolation using "f" Keyword
+
+object MyClass {
+    def main(args: Array[String]) {
+        var bikename = "ThunderBird 350"
+        var topspeed = 137
+        var str = f"I have $bikename and it has a top speed of $topspeed "
+        println(str)
+    }
+}
