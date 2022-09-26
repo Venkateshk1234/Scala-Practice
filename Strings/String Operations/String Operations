@@ -1,0 +1,16 @@
+object MyClass {
+      
+      def main(args: Array[String]) {
+         val str1 = "Affine Analytics "
+         val str2 = "is awesome"
+         
+         println("str1 = " + str1)
+         println("str2 = " + str2)
+         
+         println("Comparison between str1 and str2 is " + (str1 == str2))
+         println("The length of str1 is " + str1.length)
+         println("Concatenating str1 with str2 gives \n " + str1.concat(str2))
+         println("The character at  index 5 of str2 is" + str2.charAt(5))
+         println("The index of 'c' in str1 is " + str1.indexOf("c"))
+      }
+   }
