@@ -1,0 +1,10 @@
+//Using expressions in String Interpolation
+
+object MyClass {
+    def main(args: Array[String]) {
+        var a = 34
+        var b = 75
+        var str = s"The product of $a and $b is ${a*b}"
+        println(str)
+    }
+}
