@@ -1,0 +1,7 @@
+object MyClass {    
+    def main(args: Array[String]) {
+        var speed = 124
+        var formattedstring = speed.formatted("Maximum speed of my bike is %d km/h")
+        print(formattedstring)
+    }
+}
