@@ -1,9 +1,0 @@
-object MyClass {
-    def main(args: Array[String]) {
-        var output = "%s earns %d in a month!"
-        var employee_name = "Ram"
-        var employee_salary = 400000
-        var formatted_string = output.format(employee_name, employee_salary)   
-        print(formatted_string)
-    }
-}
